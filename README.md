@@ -1,6 +1,6 @@
-# GASify FREE - A Gameplay Ability System for Unity
+# GASify (FREE) - A Gameplay Ability System for Unity
 
-<img src="./~ReadMeFiles/logo.png" alt="logo" width="256" />
+![logo](./~ReadMeFiles/logo.png)
 
 ## What is it?
 
@@ -12,6 +12,8 @@ It uses Attributes, Tags, Effects and Modifiers to model any imaginable interact
 You can build MMO/Action RPG abilities, crazy roguelike upgrades/effects, soulslike poise/stamina/dodge/animation synced systems and immersive sim objects and elemental interactions.
 
 GASify is inspired by Unreal's Gameplay Ability System.
+
+![ascdiagram](./~ReadMeFiles/ASCDIAGRAMSIMPLE.png)
 
 ## FREE VERSION LIMITATIONS:
 
@@ -27,8 +29,6 @@ The free version only contains simple modifiers and instant tags/effects. Many a
 ## Documentation: https://feliperoddd.gitbook.io/gasify
 
 ## Full version: https://assetstore.unity.com/packages/tools/game-toolkits/gasify-gameplay-ability-system-255377
-
-<img src="./~ReadMeFiles/ASCDIAGRAMSIMPLE.png" alt="logo" width="256" />
 
 [![Watch the video](https://img.youtube.com/vi/r6YI7LvT-bs/hqdefault.jpg)](https://youtu.be/r6YI7LvT-bs)
 
