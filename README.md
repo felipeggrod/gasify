@@ -4,10 +4,10 @@
 
 ## What is it?
 
-A Gameplay Ability System (GAS) is a framework/toolkit to create any game mechanic.
+A Gameplay Ability System (GAS) is a **framework/toolkit** to create any game mechanic.
 
 A GAS is like a collection of gears to build any kind of ability.
-It uses Attributes, Tags, Effects and Modifiers to model any imaginable interaction.
+It uses **Attributes**, **Tags**, **Effects** and **Modifiers** to model any imaginable interaction.
 
 You can build MMO/Action RPG abilities, crazy roguelike upgrades/effects, soulslike poise/stamina/dodge/animation synced systems and immersive sim objects and elemental interactions.
 
