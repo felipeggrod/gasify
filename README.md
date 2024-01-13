@@ -19,9 +19,9 @@ GASify is inspired by Unreal's Gameplay Ability System.
 
 The free version only contains simple modifiers and instant tags/effects. Many abilities won't work properly.
 
-- Only 3 types of Abilities: Instant, Projectile, TargetedProjectile. Full version: Instant, Projectile, TargetedProjectile, Toggle, Passive, Trigger.
+- Only 3 types of Abilities: Instant, Projectile, TargetedProjectile. (Full version: Instant, Projectile, TargetedProjectile, Toggle, Passive, Trigger)
 - Duration and Infinite GEs have a fixed duration.
-- No calculations (Can't add custom code/attribute formulas to GameplayEffects)
+- No Calculations (Can't add custom code/attribute formulas to GameplayEffects)
 - Only Add or Subtract Attributes Operator (Fullversion: Multiply and Override)
 - Only Basic Modifier (constant Value) (Fullversion: Basic, ScalableModifier, AttributeBasedModifier CSVModifier)
 - No Tag filters. (Full version: filter ability and effect activation/removal using tags) remove it.
