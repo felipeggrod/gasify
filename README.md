@@ -28,7 +28,7 @@ The free version only contains simple modifiers and instant tags/effects. Many a
 
 ## Documentation: https://feliperoddd.gitbook.io/gasify
 
-## Full version: https://assetstore.unity.com/packages/tools/game-toolkits/gasify-gameplay-ability-system-255377
+## Full version: https://assetstore.unity.com/packages/slug/255377
 
 [![Watch the video](https://img.youtube.com/vi/r6YI7LvT-bs/hqdefault.jpg)](https://youtu.be/r6YI7LvT-bs)
 
