@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58eb1d9e4390d364896a2589d793b945, type: 3}
+  m_Name: GE_Dash
+  m_EditorClassIdentifier: 
+  ge:
+    name: Dash
+    description: 
+    durationType: 2
+    durationValue: 0.3
+    period: 0
+    periodicExpired: 0
+    modifiers:
+    - rid: 1682098004187676953
+    source: {fileID: 0}
+    target: {fileID: 0}
+    gameplayEffectTags:
+      GrantedTags: []
+      DescriptionTags: []
+      OngoingTagRequirementsRequired: []
+      OngoingTagRequirementsForbidden: []
+      ApplicationTagRequirementsRequired: []
+      ApplicationTagRequirementsForbidden: []
+      RemoveGameplayEffectsWithTag: []
+      initialized: 1
+      string_GrantedTags: []
+      string_DescriptionTags: []
+      string_OngoingTagRequirementsRequired: []
+      string_OngoingTagRequirementsForbidden: []
+      string_ApplicationTagRequirementsRequired: []
+      string_ApplicationTagRequirementsForbidden: []
+      string_RemovalTagRequirementsRequired: []
+      string_RemovalTagRequirementsForbidden: []
+      string_RemoveGameplayEffectsWithTag: []
+      string_CueTags:
+      - GameplayCue.Effect.Dash
+    cuesTags:
+    - {fileID: 11400000, guid: eb60a90d6e7d50e49aaadfd059ff591b, type: 2}
+    level: 1
+    chanceToApply: 1
+    guid: 
+    applicationGUID: 
+  references:
+    version: 2
+    RefIds:
+    - rid: 1682098004187676953
+      type: {class: BasicModifier, ns: GAS, asm: GAS}
+      data:
+        name: BasicModifier
+        attributeName: {fileID: 11400000, guid: ba6d348032e5a69429761b72a5ccd6d9, type: 2}
+        attributeNameSerialized: MovementSpeed
+        value: 20

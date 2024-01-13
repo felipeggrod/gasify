@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a1908bf3b2f3540a0519260afbb773, type: 3}
+  m_Name: Event.CriticalHit
+  m_EditorClassIdentifier: 
+  _Name: CriticalHit
+  _Parent: {fileID: 11400000, guid: f6a57924e5ba8c1449227e96ad2861a5, type: 2}

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 047fb036e724b844691da8df2995c25b, type: 3}
+  m_Name: GroupAttribute_Player
+  m_EditorClassIdentifier: 
+  group:
+  - name: 'CriticalBonus: 1.5'
+    attributeName: {fileID: 11400000, guid: bb0ffdaa2233d9447931e73574e56bb8, type: 2}
+    baseValue: 1.5
+  - name: 'CriticalChance: 10'
+    attributeName: {fileID: 11400000, guid: 7a6848c218694424ca46f59ba4f3c4b2, type: 2}
+    baseValue: 10
+  - name: 'DamageMax: 10'
+    attributeName: {fileID: 11400000, guid: 0c747f4b75f96d541a95f88c0491846b, type: 2}
+    baseValue: 10
+  - name: 'DamageMin: 20'
+    attributeName: {fileID: 11400000, guid: e320e2c7967b85545aa841a8115052d4, type: 2}
+    baseValue: 20
+  - name: 'Health: 80'
+    attributeName: {fileID: 11400000, guid: 219553465e23cbb4cb54f849f6a78721, type: 2}
+    baseValue: 80
+  - name: 'HealthMax: 100'
+    attributeName: {fileID: 11400000, guid: efcc22832d947f64385413f8b7981968, type: 2}
+    baseValue: 100
+  - name: 'HealthPotion: 5'
+    attributeName: {fileID: 11400000, guid: 011145e8c47e8f7428de0d344f3994af, type: 2}
+    baseValue: 5
+  - name: 'Mana: 20'
+    attributeName: {fileID: 11400000, guid: 96b68b16e05724e458a1c105f31002b1, type: 2}
+    baseValue: 20
+  - name: 'ManaMax: 100'
+    attributeName: {fileID: 11400000, guid: 96060d461d34e5f4b9a20e1fb4800ab7, type: 2}
+    baseValue: 100
+  - name: 'MovementSpeed: 5'
+    attributeName: {fileID: 11400000, guid: ba6d348032e5a69429761b72a5ccd6d9, type: 2}
+    baseValue: 5

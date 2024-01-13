@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fcde891181399143a15e1fb00be10d7, type: 3}
+  m_Name: GroupGA_Player
+  m_EditorClassIdentifier: 
+  group:
+  - {fileID: 11400000, guid: f96362b5bad2afa4eadbca9fcc79c2c4, type: 2}
+  - {fileID: 11400000, guid: 9784f794a413b4a4483520b599405108, type: 2}
+  - {fileID: 11400000, guid: 224bcf7eee79a50468710d9c47a2d5a0, type: 2}
+  - {fileID: 11400000, guid: 3fa17f1cf04cf5246a7c2788aa73f50c, type: 2}
+  - {fileID: 11400000, guid: bc1351ec5faf4a54e9df89e9aeba2931, type: 2}
+  - {fileID: 11400000, guid: 275c387f6039c2e46af3a7201e193288, type: 2}
+  - {fileID: 11400000, guid: c8d1b88417980d148b7a95c45b59d373, type: 2}

@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5bf34b2a0a5874dab918f16987aae0, type: 3}
+  m_Name: GA_Jump
+  m_EditorClassIdentifier: 
+  ga:
+    rid: 1682098004187676951
+  references:
+    version: 2
+    RefIds:
+    - rid: 1682098004187676951
+      type: {class: InstantAbility, ns: GAS, asm: GAS}
+      data:
+        name: Jump
+        cooldown:
+          name: Jump Cooldown
+          description: 
+          durationType: 2
+          durationValue: 2
+          period: 0
+          periodicExpired: 0
+          modifiers: []
+          source: {fileID: 0}
+          target: {fileID: 0}
+          gameplayEffectTags:
+            GrantedTags:
+            - {fileID: 11400000, guid: 438238076a686744497295ee167ac4fe, type: 2}
+            DescriptionTags: []
+            OngoingTagRequirementsRequired: []
+            OngoingTagRequirementsForbidden: []
+            ApplicationTagRequirementsRequired: []
+            ApplicationTagRequirementsForbidden: []
+            RemoveGameplayEffectsWithTag: []
+            initialized: 1
+            string_GrantedTags:
+            - Ability.Cooldown.Jump
+            string_DescriptionTags: []
+            string_OngoingTagRequirementsRequired: []
+            string_OngoingTagRequirementsForbidden: []
+            string_ApplicationTagRequirementsRequired: []
+            string_ApplicationTagRequirementsForbidden: []
+            string_RemovalTagRequirementsRequired: []
+            string_RemovalTagRequirementsForbidden: []
+            string_RemoveGameplayEffectsWithTag: []
+            string_CueTags: []
+          cuesTags: []
+          level: 1
+          chanceToApply: 1
+          guid: 
+          applicationGUID: 
+        cost:
+          name: 
+          description: 
+          durationType: 0
+          durationValue: 0
+          period: 0
+          periodicExpired: 0
+          modifiers: []
+          source: {fileID: 0}
+          target: {fileID: 0}
+          gameplayEffectTags:
+            GrantedTags: []
+            DescriptionTags: []
+            OngoingTagRequirementsRequired: []
+            OngoingTagRequirementsForbidden: []
+            ApplicationTagRequirementsRequired: []
+            ApplicationTagRequirementsForbidden: []
+            RemoveGameplayEffectsWithTag: []
+            initialized: 0
+            string_GrantedTags: []
+            string_DescriptionTags: []
+            string_OngoingTagRequirementsRequired: []
+            string_OngoingTagRequirementsForbidden: []
+            string_ApplicationTagRequirementsRequired: []
+            string_ApplicationTagRequirementsForbidden: []
+            string_RemovalTagRequirementsRequired: []
+            string_RemovalTagRequirementsForbidden: []
+            string_RemoveGameplayEffectsWithTag: []
+            string_CueTags: []
+          cuesTags: []
+          level: 1
+          chanceToApply: 1
+          guid: 
+          applicationGUID: 
+        effects: []
+        effectsSO:
+        - {fileID: 11400000, guid: dcd0fe51202642c4c994661ceb446307, type: 2}
+        abilityTags:
+          rid: 1682098004187676952
+        source: {fileID: 0}
+        target: {fileID: 0}
+        owner: {fileID: 0}
+        cuesTags:
+        - {fileID: 11400000, guid: ed0061e6cb729d548b6ca03c9d61b311, type: 2}
+        guid: 
+        className: 
+        level: 1
+        isActive: 0
+        activationGUID: 
+    - rid: 1682098004187676952
+      type: {class: AbilityTags, ns: GAS, asm: GAS}
+      data:
+        ActivationOwnedTags: []
+        DescriptionTags: []
+        CancelAbilitiesWithTags: []
+        BlockAbilitiesWithTags: []
+        SourceTagsRequired: []
+        SourceTagsForbidden: []
+        TargetTagsRequired: []
+        TargetTagsForbidden: []
+        initialized: 1
+        stringActivationOwnedTags: []
+        stringDescriptionTags: []
+        stringCancelAbilitiesWithTags: []
+        stringBlockAbilitiesWithTags: []
+        stringSourceTagsRequired: []
+        stringSourceTagsForbidden: []
+        stringTargetTagsRequired: []
+        stringTargetTagsForbidden: []
+        string_CueTags:
+        - GameplayCue.Ability.Dash

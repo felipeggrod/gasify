@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5bf34b2a0a5874dab918f16987aae0, type: 3}
+  m_Name: GA_Potion
+  m_EditorClassIdentifier: 
+  ga:
+    rid: 1682098025123545184
+  references:
+    version: 2
+    RefIds:
+    - rid: 1682098025123545184
+      type: {class: InstantAbility, ns: GAS, asm: GAS}
+      data:
+        name: Potion
+        cooldown:
+          name: Cooldown Potion
+          description: 
+          durationType: 2
+          durationValue: 1
+          period: 0
+          periodicExpired: 0
+          modifiers: []
+          source: {fileID: 0}
+          target: {fileID: 0}
+          gameplayEffectTags:
+            GrantedTags: []
+            DescriptionTags: []
+            OngoingTagRequirementsRequired: []
+            OngoingTagRequirementsForbidden: []
+            ApplicationTagRequirementsRequired: []
+            ApplicationTagRequirementsForbidden: []
+            RemoveGameplayEffectsWithTag: []
+            initialized: 1
+            string_GrantedTags: []
+            string_DescriptionTags: []
+            string_OngoingTagRequirementsRequired: []
+            string_OngoingTagRequirementsForbidden: []
+            string_ApplicationTagRequirementsRequired: []
+            string_ApplicationTagRequirementsForbidden: []
+            string_RemovalTagRequirementsRequired: []
+            string_RemovalTagRequirementsForbidden: []
+            string_RemoveGameplayEffectsWithTag: []
+            string_CueTags: []
+          cuesTags: []
+          level: 1
+          chanceToApply: 1
+          guid: 
+          applicationGUID: 
+        cost:
+          name: Cost Potion
+          description: 
+          durationType: 0
+          durationValue: 0
+          period: 0
+          periodicExpired: 0
+          modifiers:
+          - rid: 1682098025123545194
+          source: {fileID: 0}
+          target: {fileID: 0}
+          gameplayEffectTags:
+            GrantedTags:
+            - {fileID: 11400000, guid: dcdfa83b1dae82b49824b38d49b75f31, type: 2}
+            DescriptionTags: []
+            OngoingTagRequirementsRequired: []
+            OngoingTagRequirementsForbidden: []
+            ApplicationTagRequirementsRequired: []
+            ApplicationTagRequirementsForbidden: []
+            RemoveGameplayEffectsWithTag: []
+            initialized: 1
+            string_GrantedTags:
+            - Ability.Cost
+            string_DescriptionTags: []
+            string_OngoingTagRequirementsRequired: []
+            string_OngoingTagRequirementsForbidden: []
+            string_ApplicationTagRequirementsRequired: []
+            string_ApplicationTagRequirementsForbidden: []
+            string_RemovalTagRequirementsRequired: []
+            string_RemovalTagRequirementsForbidden: []
+            string_RemoveGameplayEffectsWithTag: []
+            string_CueTags: []
+          cuesTags: []
+          level: 1
+          chanceToApply: 1
+          guid: 
+          applicationGUID: 
+        effects: []
+        effectsSO:
+        - {fileID: 11400000, guid: a1094ad3158dd7f46a1ed7eef5aed84c, type: 2}
+        abilityTags:
+          rid: 1682098025123545185
+        source: {fileID: 0}
+        target: {fileID: 0}
+        owner: {fileID: 0}
+        cuesTags: []
+        guid: 
+        className: 
+        level: 1
+        isActive: 0
+        activationGUID: 
+    - rid: 1682098025123545185
+      type: {class: AbilityTags, ns: GAS, asm: GAS}
+      data:
+        ActivationOwnedTags: []
+        DescriptionTags: []
+        CancelAbilitiesWithTags: []
+        BlockAbilitiesWithTags: []
+        SourceTagsRequired: []
+        SourceTagsForbidden: []
+        TargetTagsRequired: []
+        TargetTagsForbidden: []
+        initialized: 1
+        stringActivationOwnedTags: []
+        stringDescriptionTags: []
+        stringCancelAbilitiesWithTags: []
+        stringBlockAbilitiesWithTags: []
+        stringSourceTagsRequired: []
+        stringSourceTagsForbidden: []
+        stringTargetTagsRequired: []
+        stringTargetTagsForbidden: []
+        string_CueTags: []
+    - rid: 1682098025123545194
+      type: {class: BasicModifier, ns: GAS, asm: GAS}
+      data:
+        name: BasicModifier
+        attributeName: {fileID: 11400000, guid: 011145e8c47e8f7428de0d344f3994af, type: 2}
+        attributeNameSerialized: HealthPotion
+        value: -1

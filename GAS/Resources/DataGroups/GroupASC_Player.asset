@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b215f94eb8269764f8a8bc591406324c, type: 3}
+  m_Name: GroupASC_Player
+  m_EditorClassIdentifier: 
+  attributes: {fileID: 11400000, guid: e1766b86ed437c844b59562edb0bf8f6, type: 2}
+  attributeProcessors: {fileID: 11400000, guid: 17fdfc73596b8ee4f941eb7a45e9482d, type: 2}
+  abilities: {fileID: 11400000, guid: 1934bb64382b21e46b50069a44f9eff4, type: 2}

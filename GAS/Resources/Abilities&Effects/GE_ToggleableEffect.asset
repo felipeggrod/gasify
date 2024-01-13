@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58eb1d9e4390d364896a2589d793b945, type: 3}
+  m_Name: GE_ToggleableEffect
+  m_EditorClassIdentifier: 
+  ge:
+    name: ToggleableEffect
+    description: 
+    durationType: 1
+    durationValue: 0
+    period: 0
+    periodicExpired: 0
+    modifiers:
+    - rid: 8571606366385602600
+    calculations: []
+    calculationsSO: []
+    source: {fileID: 0}
+    target: {fileID: 0}
+    gameplayEffectTags:
+      DescriptionTags: []
+      GrantedTags:
+      - {fileID: 11400000, guid: d38e9c1a7d85b1d419d871d185f57fdd, type: 2}
+      OngoingTagRequirementsRequired: []
+      OngoingTagRequirementsForbidden: []
+      ApplicationTagRequirementsRequired: []
+      ApplicationTagRequirementsForbidden: []
+      RemoveGameplayEffectsWithTag: []
+      initialized: 1
+      string_DescriptionTags: []
+      string_GrantedTags: []
+      string_OngoingTagRequirementsRequired: []
+      string_OngoingTagRequirementsForbidden: []
+      string_ApplicationTagRequirementsRequired: []
+      string_ApplicationTagRequirementsForbidden: []
+      string_RemovalTagRequirementsRequired: []
+      string_RemovalTagRequirementsForbidden: []
+      string_RemoveGameplayEffectsWithTag: []
+    cuesTags:
+    - {fileID: 11400000, guid: 209581e998296994393f2d8a40b0b203, type: 2}
+    level: 1
+    chanceToApply: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 8571606366385602600
+      type: {class: BasicModifier, ns: GAS, asm: GAS}
+      data:
+        name: BasicModifier
+        attributeName: {fileID: 11400000, guid: efcc22832d947f64385413f8b7981968, type: 2}
+        modifierOperator: 1
+        value: 2

@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6722addf33af923449ce31c38a293e2b, type: 3}
+  m_Name: _CuesLibrary
+  m_EditorClassIdentifier: 
+  cuesLibrary:
+  - name: GameplayCue.Effect.Dash
+    tag: {fileID: 11400000, guid: eb60a90d6e7d50e49aaadfd059ff591b, type: 2}
+    cue:
+      prefab: {fileID: 6269792764114809731, guid: bbc48caab7cac9148bd781ef0bd9b210, type: 3}
+      instance: {fileID: 6269792764114809731, guid: bbc48caab7cac9148bd781ef0bd9b210, type: 3}
+      tag: {fileID: 11400000, guid: eb60a90d6e7d50e49aaadfd059ff591b, type: 2}
+      offset: {x: 0, y: 1, z: 0}
+  - name: GameplayCue.Ability.Dash
+    tag: {fileID: 11400000, guid: ed0061e6cb729d548b6ca03c9d61b311, type: 2}
+    cue:
+      prefab: {fileID: 6269792764114809731, guid: 96ec6b400befbe84abca7d1db8d6f9a1, type: 3}
+      instance: {fileID: 0}
+      tag: {fileID: 11400000, guid: ed0061e6cb729d548b6ca03c9d61b311, type: 2}
+      offset: {x: 0, y: 1, z: 0}
+  - name: GameplayCue.ManaFromHealth
+    tag: {fileID: 11400000, guid: 4bca9487af39f2e4792c14fc363ba779, type: 2}
+    cue:
+      prefab: {fileID: 6269792764114809731, guid: 241c32572c6677d47abda6e29b617955, type: 3}
+      instance: {fileID: 6269792764114809731, guid: 241c32572c6677d47abda6e29b617955, type: 3}
+      tag: {fileID: 11400000, guid: 4bca9487af39f2e4792c14fc363ba779, type: 2}
+      offset: {x: 0, y: 1, z: 0}
+  - name: GameplayCue.ManaFromHealth
+    tag: {fileID: 11400000, guid: 4bca9487af39f2e4792c14fc363ba779, type: 2}
+    cue:
+      prefab: {fileID: 6269792764114809731, guid: ea23e7b2540647a429d51dae66511605, type: 3}
+      instance: {fileID: 6269792764114809731, guid: ea23e7b2540647a429d51dae66511605, type: 3}
+      tag: {fileID: 11400000, guid: 4bca9487af39f2e4792c14fc363ba779, type: 2}
+      offset: {x: 0, y: 1, z: 0}
+  - name: GameplayCue.Ability.PassiveAura1
+    tag: {fileID: 11400000, guid: 209581e998296994393f2d8a40b0b203, type: 2}
+    cue:
+      prefab: {fileID: 6269792764114809731, guid: bc8c78994c7aaf547976f7567652bf57, type: 3}
+      instance: {fileID: 0}
+      tag: {fileID: 11400000, guid: 209581e998296994393f2d8a40b0b203, type: 2}
+      offset: {x: 0, y: 1, z: 0}
+  - name: GameplayCue.Ability.Potion
+    tag: {fileID: 11400000, guid: 675becab89e7e594686b2ed51ce5da83, type: 2}
+    cue:
+      prefab: {fileID: 6269792764114809731, guid: 9bc1a9c8548674f4fab8d8646a1fecc9, type: 3}
+      instance: {fileID: 0}
+      tag: {fileID: 11400000, guid: 675becab89e7e594686b2ed51ce5da83, type: 2}
+      offset: {x: 0, y: 1, z: 0}
+  - name: GameplayCue.Effect.Potion
+    tag: {fileID: 11400000, guid: 29b5c1bd4c30de24eb544b16d7b551e8, type: 2}
+    cue:
+      prefab: {fileID: 6269792764114809731, guid: 9bc1a9c8548674f4fab8d8646a1fecc9, type: 3}
+      instance: {fileID: 0}
+      tag: {fileID: 11400000, guid: 29b5c1bd4c30de24eb544b16d7b551e8, type: 2}
+      offset: {x: 0, y: 1, z: 0}
+  - name: GameplayCue.Ability.Poison
+    tag: {fileID: 11400000, guid: c0f28c4fd9ddbc74994c18afcb1567ac, type: 2}
+    cue:
+      prefab: {fileID: 6269792764114809731, guid: a8af537940732ea489cfaf164b931f8f, type: 3}
+      instance: {fileID: 0}
+      tag: {fileID: 11400000, guid: c0f28c4fd9ddbc74994c18afcb1567ac, type: 2}
+      offset: {x: 0, y: 1, z: 0}
+  - name: GameplayCue.Ability.AntiPoison
+    tag: {fileID: 11400000, guid: 80ccf2a06d22deb4093850fcfd580706, type: 2}
+    cue:
+      prefab: {fileID: 6269792764114809731, guid: bdd6cc05ea358bb44a6705d36f8be9e6, type: 3}
+      instance: {fileID: 0}
+      tag: {fileID: 11400000, guid: 80ccf2a06d22deb4093850fcfd580706, type: 2}
+      offset: {x: 0, y: 1, z: 0}
+  - name: GameplayCue.Ability.Damage
+    tag: {fileID: 11400000, guid: 5e220e41bd2c92144b9c6091eec36099, type: 2}
+    cue:
+      prefab: {fileID: 6269792764114809731, guid: 0dba92b143941de4e865a4f118721d87, type: 3}
+      instance: {fileID: 0}
+      tag: {fileID: 11400000, guid: 5e220e41bd2c92144b9c6091eec36099, type: 2}
+      offset: {x: 0, y: 1, z: 0}
+  - name: GameplayCue.Ability.Melee
+    tag: {fileID: 11400000, guid: bf531ee4da5d7014ea6f0a831cd87d49, type: 2}
+    cue:
+      prefab: {fileID: 6269792764114809731, guid: 7b8f91350e8f6a545ae0a5676e585ef2, type: 3}
+      instance: {fileID: 0}
+      tag: {fileID: 11400000, guid: bf531ee4da5d7014ea6f0a831cd87d49, type: 2}
+      offset: {x: 0.66, y: 0, z: 0.66}
+  - name: GameplayCue.Ability.Projectile
+    tag: {fileID: 11400000, guid: 07103b58d99d0c04c920be4a40c017b2, type: 2}
+    cue:
+      prefab: {fileID: 2736262986606857056, guid: 51ad58de061e9fe40b4a5e7a1b16133a, type: 3}
+      instance: {fileID: 0}
+      tag: {fileID: 11400000, guid: 07103b58d99d0c04c920be4a40c017b2, type: 2}
+      offset: {x: 0, y: 0, z: 0.66}
+  - name: GameplayCue.Ability.Projectile
+    tag: {fileID: 11400000, guid: 07103b58d99d0c04c920be4a40c017b2, type: 2}
+    cue:
+      prefab: {fileID: 2736262986606857056, guid: 51ad58de061e9fe40b4a5e7a1b16133a, type: 3}
+      instance: {fileID: 0}
+      tag: {fileID: 11400000, guid: 07103b58d99d0c04c920be4a40c017b2, type: 2}
+      offset: {x: 0, y: 0, z: 0.66}
+  - name: Effects.Debuff.OnFire
+    tag: {fileID: 11400000, guid: 229e117427cd78545820fa0f58a3b930, type: 2}
+    cue:
+      prefab: {fileID: 6269792764114809731, guid: 20eac03bb884cf94b9fbde24d7fe9381, type: 3}
+      instance: {fileID: 0}
+      tag: {fileID: 11400000, guid: 229e117427cd78545820fa0f58a3b930, type: 2}
+      offset: {x: 0, y: 0, z: 0.66}
+  - name: Effects.Debuff.Frozen
+    tag: {fileID: 11400000, guid: b679770ae87bf874793960f1eb258075, type: 2}
+    cue:
+      prefab: {fileID: 6269792764114809731, guid: cce33b6e8e997a54d8b046e0bc85e4ea, type: 3}
+      instance: {fileID: 0}
+      tag: {fileID: 11400000, guid: b679770ae87bf874793960f1eb258075, type: 2}
+      offset: {x: 0, y: 0, z: 0.66}

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58eb1d9e4390d364896a2589d793b945, type: 3}
+  m_Name: GE_AttackSpeed
+  m_EditorClassIdentifier: 
+  ge:
+    name: AttSpeed
+    description: 
+    durationType: 1
+    durationValue: 10
+    period: 0
+    periodicExpired: 0
+    modifiers: []
+    calculations: []
+    calculationsSO:
+    - {fileID: 11400000, guid: 13329b43d730fb94b8d21007ab093226, type: 2}
+    source: {fileID: 0}
+    target: {fileID: 0}
+    level: 1
+    gameplayEffectTags:
+      DescriptionTags: []
+      GrantedTags: []
+      OngoingTagRequirementsRequired: []
+      OngoingTagRequirementsForbidden: []
+      ApplicationTagRequirementsRequired: []
+      ApplicationTagRequirementsForbidden: []
+      RemoveGameplayEffectsWithTag: []
+      initialized: 0
+      string_DescriptionTags: []
+      string_GrantedTags: []
+      string_OngoingTagRequirementsRequired: []
+      string_OngoingTagRequirementsForbidden: []
+      string_ApplicationTagRequirementsRequired: []
+      string_ApplicationTagRequirementsForbidden: []
+      string_RemovalTagRequirementsRequired: []
+      string_RemovalTagRequirementsForbidden: []
+      string_RemoveGameplayEffectsWithTag: []
+    cuesTags: []
+  references:
+    version: 2
+    RefIds: []

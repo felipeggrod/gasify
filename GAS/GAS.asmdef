@@ -1,0 +1,18 @@
+{
+    "name": "GAS",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f24cf67903b27ae498b3069ecc30cc11",
+        "GUID:80120b1292c15624a97f2c7983a70cea",
+        "GUID:30817c1a0e6d646d99c048fc403f5979"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
