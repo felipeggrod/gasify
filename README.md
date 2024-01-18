@@ -15,18 +15,16 @@ GASify is inspired by Unreal's Gameplay Ability System.
 
 ![ascdiagram](./~ReadMeFiles/ASCDIAGRAMSIMPLE.png)
 
-## FREE VERSION LIMITATIONS:
+## Documentation: https://feliperoddd.gitbook.io/gasify
 
-The free version only contains simple modifiers and instant tags/effects. Many abilities won't work properly.
+## FREE VERSION LIMITATIONS:
 
 - Only 3 types of Abilities: Instant, Projectile, TargetedProjectile. (Full version: Instant, Projectile, TargetedProjectile, Toggle, Passive, Trigger)
 - Duration and Infinite GEs have a fixed duration.
 - No Calculations (Can't add custom code/attribute formulas to GameplayEffects)
 - Only Add or Subtract Attributes Operator (Fullversion: Multiply and Override)
 - Only Basic Modifier (constant Value) (Fullversion: Basic, ScalableModifier, AttributeBasedModifier CSVModifier)
-- No Tag filters. (Full version: filter ability and effect activation/removal using tags) remove it.
-
-## Documentation: https://feliperoddd.gitbook.io/gasify
+- No Tag filters. (Full version: filter ability and effect activation/removal using tags).
 
 ## Full version: https://assetstore.unity.com/packages/slug/255377
 
