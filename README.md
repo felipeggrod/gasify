@@ -15,6 +15,10 @@ GASify is inspired by Unreal's Gameplay Ability System.
 
 ![ascdiagram](./~ReadMeFiles/ASCDIAGRAMSIMPLE.png)
 
+## Mirror Integration (Networking/Multiplayer):
+The networking integration is available on the free version. More info on the docs.
+[![Networking](https://img.youtube.com/vi/6lcar1vZxrw/hqdefault.jpg)](https://youtu.be/6lcar1vZxrw)
+
 ## Documentation: https://feliperoddd.gitbook.io/gasify
 
 ## FREE VERSION LIMITATIONS:
@@ -28,6 +32,7 @@ GASify is inspired by Unreal's Gameplay Ability System.
 
 ## Full version: https://assetstore.unity.com/packages/slug/255377
 
+## Intro:
 [![Watch the video](https://img.youtube.com/vi/r6YI7LvT-bs/hqdefault.jpg)](https://youtu.be/r6YI7LvT-bs)
 
 ## Examples:
