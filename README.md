@@ -1,6 +1,7 @@
 # GASify (FREE) - A Gameplay Ability System for Unity
 
 ![logo](./~ReadMeFiles/logo.png)
+# Full version: https://assetstore.unity.com/packages/slug/255377
 
 ## What is it?
 
@@ -13,6 +14,8 @@ You can build MMO/Action RPG abilities, crazy roguelike upgrades/effects, soulsl
 
 GASify is inspired by Unreal's Gameplay Ability System.
 
+## Documentation: https://feliperoddd.gitbook.io/gasify
+
 ![ascdiagram](./~ReadMeFiles/ASCDIAGRAMSIMPLE.png)
 
 ## Mirror Integration (Networking/Multiplayer)
@@ -20,8 +23,6 @@ The networking integration is available on the free version.
 More info on the docs.
 
 [![Networking](https://img.youtube.com/vi/6lcar1vZxrw/hqdefault.jpg)](https://youtu.be/6lcar1vZxrw)
-
-## Documentation: https://feliperoddd.gitbook.io/gasify
 
 ## FREE VERSION LIMITATIONS:
 
@@ -31,8 +32,6 @@ More info on the docs.
 - Only Add or Subtract Attributes Operator (Fullversion: Multiply and Override)
 - Only Basic Modifier (constant Value) (Fullversion: Basic, ScalableModifier, AttributeBasedModifier CSVModifier)
 - No Tag filters. (Full version: filter ability and effect activation/removal using tags).
-
-## Full version: https://assetstore.unity.com/packages/slug/255377
 
 ## Intro
 
