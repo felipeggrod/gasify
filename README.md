@@ -2,7 +2,11 @@
 # GASify (FREE) - A Gameplay Ability System for Unity
 <p align="center">![logo](./~ReadMeFiles/logo.png)</p>
 ### Full version: https://assetstore.unity.com/packages/slug/255377
+<div style="text-align: justify;">
 
+Your justified text here.
+
+</div>
 ## What is it?
 
 A Gameplay Ability System (GAS) is a **framework/toolkit** to create any game mechanic.
