@@ -42,14 +42,11 @@ GASify is inspired by Unreal's Gameplay Ability System.
 The networking integration is available on the free version. 
 More info on the docs.
 
-<p align="center">
 [![Networking](https://img.youtube.com/vi/6lcar1vZxrw/hqdefault.jpg)](https://youtu.be/6lcar1vZxrw)
-</p>
 
 ## Intro
-<p align="center">
+
 [![Watch the video](https://img.youtube.com/vi/r6YI7LvT-bs/hqdefault.jpg)](https://youtu.be/r6YI7LvT-bs)
-</p>
 
 ## Examples:
 
