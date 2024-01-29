@@ -6,7 +6,7 @@
  </p>
 
  <p align="center">
-    ### Full version: https://assetstore.unity.com/packages/slug/255377
+    <b> Full version: https://assetstore.unity.com/packages/slug/255377 </b>
  </p>
 
 ## What is it?
