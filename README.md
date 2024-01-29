@@ -21,16 +21,16 @@ You can build MMO/Action RPG abilities, crazy roguelike upgrades/effects, soulsl
 GASify is inspired by Unreal's Gameplay Ability System.
 
 <b>FREE VERSION INCLUDES:</b>
--Abilities, Effects, GameplayCues, GameplayTags, Attributes.
--Networking/Multiplayer Integration using Mirror.
--3 types of Abilities: Instant, Projectile, TargetedProjectile. (Full version: Instant, Projectile, TargetedProjectile, Toggle, Passive, Trigger)
--Input buffering
+- Abilities, Effects, GameplayCues, GameplayTags, Attributes.
+- Networking/Multiplayer Integration using Mirror.
+- 3 types of Abilities: Instant, Projectile, TargetedProjectile. (Full version: Instant, Projectile, TargetedProjectile, Toggle, Passive, Trigger)
+- Input buffering
 <b>FREE VERSION LIMITATIONS:</b>
--Duration and Infinite GEs have a fixed duration.
--No Calculations (Can't add custom code/attribute formulas to GameplayEffects)
--Only Add/Subtract Attributes Operator (Fullversion: Multiply and Override)
--Only Basic Modifier (constant Value) (Fullversion: Basic, ScalableModifier, AttributeBasedModifier CSVModifier)
--No Tag filters. (Full version: filter ability and effect activation/removal using tags).
+- Duration and Infinite GEs have a fixed duration.
+- No Calculations (Can't add custom code/attribute formulas to GameplayEffects)
+- Only Add/Subtract Attributes Operator (Fullversion: Multiply and Override)
+- Only Basic Modifier (constant Value) (Fullversion: Basic, ScalableModifier, AttributeBasedModifier CSVModifier)
+- No Tag filters. (Full version: filter ability and effect activation/removal using tags).
 
 ## Documentation: https://feliperoddd.gitbook.io/gasify
 
@@ -79,7 +79,7 @@ More info on the docs.
 
 ### Easy workflow.
 
-    Setup abilities/effects via code.
+    Setup abilities/effects via code or editor.
 
 ### Full source code.
 
