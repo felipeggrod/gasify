@@ -3,7 +3,7 @@
 <p align="center">
     <img src="./~ReadMeFiles/logo.png" alt="logo image">
  </p>
-![logo](./~ReadMeFiles/logo.png)
+
 ### Full version: https://assetstore.unity.com/packages/slug/255377
 
 ## What is it?
