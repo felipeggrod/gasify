@@ -5,8 +5,8 @@
     
  </p>
 
-### <p align="center">
-    Full version: https://assetstore.unity.com/packages/slug/255377
+ <p align="center">
+    ### Full version: https://assetstore.unity.com/packages/slug/255377
  </p>
 
 ## What is it?
