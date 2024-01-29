@@ -25,6 +25,7 @@ GASify is inspired by Unreal's Gameplay Ability System.
 - Networking/Multiplayer Integration using Mirror.
 - 3 types of Abilities: Instant, Projectile, TargetedProjectile. (Full version: Instant, Projectile, TargetedProjectile, Toggle, Passive, Trigger)
 - Input buffering
+  
 <b>FREE VERSION LIMITATIONS:</b>
 - Duration and Infinite GEs have a fixed duration.
 - No Calculations (Can't add custom code/attribute formulas to GameplayEffects)
