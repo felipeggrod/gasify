@@ -2,9 +2,10 @@
 # GASify (FREE) - A Gameplay Ability System for Unity
 <p align="center">
     <img src="./~ReadMeFiles/logo.png" alt="logo image">
+    ### Full version: https://assetstore.unity.com/packages/slug/255377
  </p>
 
-### Full version: https://assetstore.unity.com/packages/slug/255377
+
 
 ## What is it?
 
