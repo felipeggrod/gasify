@@ -56,7 +56,7 @@ More info on the docs.
 - A fireball spell that sets objects on fire, causes instant 120% of your MaxDamage as fire damage and 50% your MinDamage as burning damage over 60s.
 - A water spell that stops any fire effect and converts any remaining damage over time into healing.
 - A projectile ability that disables any Healing effect on a given target, reduces his Armor by 10% of your total Mana, and makes anyone in a 10m radius get poisoned for 50s.
-- A mind control spell that allows a player to take control of another character (We use a calculation to put your custom code to change camera/control input)
+- A mind control spell that allows a player to take control of another character
 - You can combine and stack effects, attributes and tags to create any crazy mechanic!
 - Abilities can also represent a wide array of ingame actions, and are not limited to powers or spells that players explicitly use. Hit reactions, object interaction, animations, vfx/sfx cues are also easily handled.
 
