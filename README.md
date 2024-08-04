@@ -48,15 +48,18 @@ GASify is inspired by Unreal's Gameplay Ability System.
 
 ![ascdiagram](./~ReadMeFiles/ASCDIAGRAMSIMPLE.png)
 
-## Mirror Integration (Networking/Multiplayer)
-The networking integration is available on the free version. 
-More info on the docs.
+## Examples:
 
-[![Networking](https://img.youtube.com/vi/6lcar1vZxrw/hqdefault.jpg)](https://youtu.be/6lcar1vZxrw)
+- A spell ability that lasts 10s and heals your target every 2s for 20% of your total Mana.
+- A passive that increases your CriticalChance by 5% of your MaxHealth but reduces your Armor by 30% your CriticalChance.
+- A buff that increases your AttackSpeed by 10% of your missing Health for 5s every time you receive damage.
+- A fireball spell that sets objects on fire, causes instant 120% of your MaxDamage as fire damage and 50% your MinDamage as burning damage over 60s.
+- A water spell that stops any fire effect and converts any remaining damage over time into healing.
+- A projectile ability that disables any Healing effect on a given target, reduces his Armor by 10% of your total Mana, and makes anyone in a 10m radius get poisoned for 50s.
+- A mind control spell that allows a player to take control of another character
+- You can combine and stack effects, attributes and tags to create any crazy mechanic!
+- Abilities can also represent a wide array of ingame actions, and are not limited to powers or spells that players explicitly use. Hit reactions, object interaction, animations, vfx/sfx cues are also easily handled.
 
-## Intro
-
-[![Watch the video](https://img.youtube.com/vi/r6YI7LvT-bs/hqdefault.jpg)](https://youtu.be/r6YI7LvT-bs)
 
 ## Features:
 
@@ -83,17 +86,18 @@ More info on the docs.
 
     Modify anything to your taste.
 
-## Examples:
 
-- A spell ability that lasts 10s and heals your target every 2s for 20% of your total Mana.
-- A passive that increases your CriticalChance by 5% of your MaxHealth but reduces your Armor by 30% your CriticalChance.
-- A buff that increases your AttackSpeed by 10% of your missing Health for 5s every time you receive damage.
-- A fireball spell that sets objects on fire, causes instant 120% of your MaxDamage as fire damage and 50% your MinDamage as burning damage over 60s.
-- A water spell that stops any fire effect and converts any remaining damage over time into healing.
-- A projectile ability that disables any Healing effect on a given target, reduces his Armor by 10% of your total Mana, and makes anyone in a 10m radius get poisoned for 50s.
-- A mind control spell that allows a player to take control of another character
-- You can combine and stack effects, attributes and tags to create any crazy mechanic!
-- Abilities can also represent a wide array of ingame actions, and are not limited to powers or spells that players explicitly use. Hit reactions, object interaction, animations, vfx/sfx cues are also easily handled.
+![simplified class diagram](./~ReadMeFiles/SimplifiedDiagram.png)
+
+## Mirror Integration (Networking/Multiplayer)
+The networking integration is available on the free version. 
+More info on the docs.
+
+[![Networking](https://img.youtube.com/vi/6lcar1vZxrw/hqdefault.jpg)](https://youtu.be/6lcar1vZxrw)
+
+## Intro
+
+[![Watch the video](https://img.youtube.com/vi/r6YI7LvT-bs/hqdefault.jpg)](https://youtu.be/r6YI7LvT-bs)
 
 ## Videos:
 
@@ -105,4 +109,4 @@ More info on the docs.
 6 - GASify - Editor Workflow: https://youtu.be/3p-tZk3KEiY <br>
 7 - GASify - Bonus Detailed Diagram conversation: https://youtu.be/Wzqz0fnju8o <br>
 
-![simplified class diagram](./~ReadMeFiles/SimplifiedDiagram.png)
+
