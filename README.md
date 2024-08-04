@@ -35,6 +35,16 @@ GASify is inspired by Unreal's Gameplay Ability System.
 
 ## Documentation: https://feliperoddd.gitbook.io/gasify
 
+## Overview:
+
+- **Ability System Component:** Main component to put on any entity. Holds the entity's attributes, abilities that can be used, and Gameplay Effects/Tags currently applied to it.
+- **Attributes:** Numeric values e.g. Health, Mana, MaxHealth, MaxMana, MovementSpeed, AttackDamage, CriticalChance, Armor.
+- **Modifiers:** Change the value of attributes (Add, Multiply, Override). Modifiers come in 4 flavors: Simple (a constant value), Scalable (Scales it's output by a function e.g. Curve), AttributeBased (Uses another attribute to compute the modifier output)
+- **Gameplay Tags:** Can be used to categorize effects/abilities or define states. e.g. Element.Fire, Stats.Buff.Stun or State.Movement.Sprinting
+- **Gameplay Effect:** Apply a set of modifiers and Calculations to an AbilitySystemComponent (asc). These effects can have different durations: Instant, Duration, Infinite and Periodic.
+- **Calculations:** Adds the capability to create any custom behavior/effect. Needs custom code. Executed with the GameplayEffect that has it attached.
+- **Gameplay Ability:** Abilities with cost, cooldown, activation/blockage tags. Included: Instant, Passive, Toggle and many more! Melee and projectile ability example included. Any other custom, non general ability can be created by extending this class.
+- **Gameplay Cues:** Play sounds, particle effects, animations by just adding a tag to the effect/ability and the prefab on CueLibrary
 
 ![ascdiagram](./~ReadMeFiles/ASCDIAGRAMSIMPLE.png)
 
@@ -47,18 +57,6 @@ More info on the docs.
 ## Intro
 
 [![Watch the video](https://img.youtube.com/vi/r6YI7LvT-bs/hqdefault.jpg)](https://youtu.be/r6YI7LvT-bs)
-
-## Examples:
-
-- A spell ability that lasts 10s and heals your target every 2s for 20% of your total Mana.
-- A passive that increases your CriticalChance by 5% of your MaxHealth but reduces your Armor by 30% your CriticalChance.
-- A buff that increases your AttackSpeed by 10% of your missing Health for 5s every time you receive damage.
-- A fireball spell that sets objects on fire, causes instant 120% of your MaxDamage as fire damage and 50% your MinDamage as burning damage over 60s.
-- A water spell that stops any fire effect and converts any remaining damage over time into healing.
-- A projectile ability that disables any Healing effect on a given target, reduces his Armor by 10% of your total Mana, and makes anyone in a 10m radius get poisoned for 50s.
-- A mind control spell that allows a player to take control of another character
-- You can combine and stack effects, attributes and tags to create any crazy mechanic!
-- Abilities can also represent a wide array of ingame actions, and are not limited to powers or spells that players explicitly use. Hit reactions, object interaction, animations, vfx/sfx cues are also easily handled.
 
 ## Features:
 
@@ -85,18 +83,17 @@ More info on the docs.
 
     Modify anything to your taste.
 
-## Overview:
+## Examples:
 
-- **Ability System Component:** Main component to put on any entity. Holds the entity's attributes, abilities that can be used, and Gameplay Effects/Tags currently applied to it.
-- **Attributes:** Numeric values e.g. Health, Mana, MaxHealth, MaxMana, MovementSpeed, AttackDamage, CriticalChance, Armor.
-- **Modifiers:** Change the value of attributes (Add, Multiply, Override). Modifiers come in 4 flavors: Simple (a constant value), Scalable (Scales it's output by a function e.g. Curve), AttributeBased (Uses another attribute to compute the modifier output)
-- **Gameplay Tags:** Can be used to categorize effects/abilities or define states. e.g. Element.Fire, Stats.Buff.Stun or State.Movement.Sprinting
-- **Gameplay Effect:** Apply a set of modifiers and Calculations to an AbilitySystemComponent (asc). These effects can have different durations: Instant, Duration, Infinite and Periodic.
-- **Calculations:** Adds the capability to create any custom behavior/effect. Needs custom code. Executed with the GameplayEffect that has it attached.
-- **Gameplay Ability:** Abilities with cost, cooldown, activation/blockage tags. Included: Instant, Passive, Toggle and many more! Melee and projectile ability example included. Any other custom, non general ability can be created by extending this class.
-- **Gameplay Cues:** Play sounds, particle effects, animations by just adding a tag to the effect/ability and the prefab on CueLibrary
-
-![simplified class diagram](./~ReadMeFiles/SimplifiedDiagram.png)
+- A spell ability that lasts 10s and heals your target every 2s for 20% of your total Mana.
+- A passive that increases your CriticalChance by 5% of your MaxHealth but reduces your Armor by 30% your CriticalChance.
+- A buff that increases your AttackSpeed by 10% of your missing Health for 5s every time you receive damage.
+- A fireball spell that sets objects on fire, causes instant 120% of your MaxDamage as fire damage and 50% your MinDamage as burning damage over 60s.
+- A water spell that stops any fire effect and converts any remaining damage over time into healing.
+- A projectile ability that disables any Healing effect on a given target, reduces his Armor by 10% of your total Mana, and makes anyone in a 10m radius get poisoned for 50s.
+- A mind control spell that allows a player to take control of another character
+- You can combine and stack effects, attributes and tags to create any crazy mechanic!
+- Abilities can also represent a wide array of ingame actions, and are not limited to powers or spells that players explicitly use. Hit reactions, object interaction, animations, vfx/sfx cues are also easily handled.
 
 ## Videos:
 
@@ -107,3 +104,5 @@ More info on the docs.
 5 - GASify - More Abilities Examples: https://youtu.be/2WOSwancZ1g <br>
 6 - GASify - Editor Workflow: https://youtu.be/3p-tZk3KEiY <br>
 7 - GASify - Bonus Detailed Diagram conversation: https://youtu.be/Wzqz0fnju8o <br>
+
+![simplified class diagram](./~ReadMeFiles/SimplifiedDiagram.png)
