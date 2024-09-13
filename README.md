@@ -18,10 +18,8 @@ It uses **Attributes**, **Tags**, **Effects** and **Modifiers** to model any ima
 
 You can build MMO/Action RPG abilities, crazy roguelike upgrades/effects, soulslike poise/stamina/dodge/animation synced systems and immersive sim objects and elemental interactions.
 
-GASify is inspired by Unreal's Gameplay Ability System.
+GASify is inspired by Unreal's Gameplay Ability System. <br><br>
 
-<br>
-<br>
 <b>FREE VERSION INCLUDES:</b>
 - Abilities, Effects, GameplayCues, GameplayTags, Attributes.
 - Networking/Multiplayer Integration using Mirror.
@@ -33,15 +31,9 @@ GASify is inspired by Unreal's Gameplay Ability System.
 - No Calculations (Can't add custom code/attribute formulas to GameplayEffects)
 - Only Add/Subtract Attributes Operator (Fullversion: Multiply and Override)
 - Only Basic Modifier (constant Value) (Fullversion: Basic, ScalableModifier, AttributeBasedModifier CSVModifier)
-- No Tag filters. (Full version: filter ability and effect activation/removal using tags).
+- No Tag filters. (Full version: filter ability and effect activation/removal using tags). <br><br>
 
-<br>
-<br>
-## Documentation: https://feliperoddd.gitbook.io/gasify
-
-<br>
-<br>
-
+## Documentation: https://feliperoddd.gitbook.io/gasify <br><br>
 
 ## Overview:
 
