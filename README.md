@@ -33,7 +33,7 @@ GASify is inspired by Unreal's Gameplay Ability System. <br><br>
 - Only Basic Modifier (constant Value) (Fullversion: Basic, ScalableModifier, AttributeBasedModifier CSVModifier)
 - No Tag filters. (Full version: filter ability and effect activation/removal using tags). <br><br>
 
-## Documentation: https://feliperoddd.gitbook.io/gasify <br><br>
+## Documentation: https://feliperoddd.gitbook.io/gasify <br><br><br>
 
 ## Overview:
 
@@ -58,11 +58,8 @@ GASify is inspired by Unreal's Gameplay Ability System. <br><br>
 - A projectile ability that disables any Healing effect on a given target, reduces his Armor by 10% of your total Mana, and makes anyone in a 10m radius get poisoned for 50s.
 - A mind control spell that allows a player to take control of another character
 - You can combine and stack effects, attributes and tags to create any crazy mechanic!
-- Abilities can also represent a wide array of ingame actions, and are not limited to powers or spells that players explicitly use. Hit reactions, object interaction, animations, vfx/sfx cues are also easily handled.
+- Abilities can also represent a wide array of ingame actions, and are not limited to powers or spells that players explicitly use. Hit reactions, object interaction, animations, vfx/sfx cues are also easily handled. <br><br>
 
-
-<br>
-<br>
 ## Features:
 
 ### Networking/Multiplayer.
