@@ -20,8 +20,8 @@ You can build MMO/Action RPG abilities, crazy roguelike upgrades/effects, soulsl
 
 GASify is inspired by Unreal's Gameplay Ability System.
 
-
-
+<br>
+<br>
 <b>FREE VERSION INCLUDES:</b>
 - Abilities, Effects, GameplayCues, GameplayTags, Attributes.
 - Networking/Multiplayer Integration using Mirror.
@@ -35,10 +35,12 @@ GASify is inspired by Unreal's Gameplay Ability System.
 - Only Basic Modifier (constant Value) (Fullversion: Basic, ScalableModifier, AttributeBasedModifier CSVModifier)
 - No Tag filters. (Full version: filter ability and effect activation/removal using tags).
 
-
-
+<br>
+<br>
 ## Documentation: https://feliperoddd.gitbook.io/gasify
 
+<br>
+<br>
 
 
 ## Overview:
@@ -67,6 +69,8 @@ GASify is inspired by Unreal's Gameplay Ability System.
 - Abilities can also represent a wide array of ingame actions, and are not limited to powers or spells that players explicitly use. Hit reactions, object interaction, animations, vfx/sfx cues are also easily handled.
 
 
+<br>
+<br>
 ## Features:
 
 ### Networking/Multiplayer.
