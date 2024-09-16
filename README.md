@@ -33,8 +33,8 @@ GASify is inspired by Unreal's Gameplay Ability System. <br><br>
 - Only Basic Modifier (constant Value) (Fullversion: Basic, ScalableModifier, AttributeBasedModifier CSVModifier)
 - No Tag filters. (Full version: filter ability and effect activation/removal using tags). <br><br>
 
-## Documentation: https://feliperoddd.gitbook.io/gasify <br><br><br>
-
+## Documentation: https://feliperoddd.gitbook.io/gasify 
+<br><br>
 ## Overview:
 
 - **Ability System Component:** Main component to put on any entity. Holds the entity's attributes, abilities that can be used, and Gameplay Effects/Tags currently applied to it.
@@ -45,7 +45,7 @@ GASify is inspired by Unreal's Gameplay Ability System. <br><br>
 - **Calculations:** Adds the capability to create any custom behavior/effect. Needs custom code. Executed with the GameplayEffect that has it attached.
 - **Gameplay Ability:** Abilities with cost, cooldown, activation/blockage tags. Included: Instant, Passive, Toggle and many more! Melee and projectile ability example included. Any other custom, non general ability can be created by extending this class.
 - **Gameplay Cues:** Play sounds, particle effects, animations by just adding a tag to the effect/ability and the prefab on CueLibrary
-
+<br><br>
 ![ascdiagram](./~ReadMeFiles/ASCDIAGRAMSIMPLE.png)
 
 ## Examples:
