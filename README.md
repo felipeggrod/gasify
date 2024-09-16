@@ -34,7 +34,7 @@ GASify is inspired by Unreal's Gameplay Ability System. <br><br>
 - No Tag filters. (Full version: filter ability and effect activation/removal using tags). <br><br>
 
 ## Documentation: https://feliperoddd.gitbook.io/gasify 
-<br>
+<br><br>
 ## Overview:
 
 - **Ability System Component:** Main component to put on any entity. Holds the entity's attributes, abilities that can be used, and Gameplay Effects/Tags currently applied to it.
